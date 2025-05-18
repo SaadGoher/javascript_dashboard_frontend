@@ -21,7 +21,7 @@ body {
   padding: 20px;
 }
 
-.login-box {
+.signup-box {
   width: 100%;
   background-color: #ffffff;
   padding: 50px 40px;
@@ -81,7 +81,7 @@ input:focus {
   box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
 }
 
-.login-btn {
+.signup-btn {
   width: 100%;
   padding: 12px;
   background-color: #3b82f6;
@@ -94,82 +94,26 @@ input:focus {
   transition: background-color 0.3s ease, transform 0.2s;
 }
 
-.login-btn:hover {
+.signup-btn:hover {
   background-color: #2563eb;
   transform: translateY(-2px);
 }
 
-/* .login-btn:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-} */
-
-
-.register-link {
+.login-link {
   text-align: center;
   margin-top: 25px;
   font-size: 13px;
   color: #333;
 }
 
-.register-link a {
+.login-link a {
   color: #3b82f6;
   text-decoration: none;
   font-weight: 500;
 }
 
-.register-link a:hover {
+.login-link a:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 700px) {
-  .container {
-    max-width: 100%;
-    padding: 10px;
-  }
-  .login-box,
-  .signup-box {
-    padding: 30px 10px;
-    border-radius: 12px;
-  }
-  .input-group {
-    margin-bottom: 16px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 500px) {
-  .login-box,
-  .signup-box {
-    padding: 18px 2vw;
-    border-radius: 8px;
-  }
-  .container {
-    padding: 2px;
-  }
-  .input-group label {
-    font-size: 12px;
-  }
-  input {
-    padding: 10px 8px;
-    font-size: 13px;
-  }
-  .login-btn, .signup-btn {
-    padding: 10px;
-    font-size: 13px;
-    border-radius: 8px;
-  }
-}
-
-/* Responsive table for dashboard (if used) */
-@media (max-width: 700px) {
-  table {
-    min-width: 100% !important;
-    font-size: 13px;
-  }
-  th, td {
-    padding: 6px !important;
-  }
-}
+  
